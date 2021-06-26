@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Base Apparel coming soon page</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="container">
+			<div class="left">
+				<img src="./images/logo.svg" alt="Base Apparel Logo" class="logo" />
+				<img src="/images/hero-mobile.jpg" alt="Hero image mobile" class="hero-mobile" />
+				<h1>
+					<span>We're</span><br />
+					coming<br />
+					soon
+				</h1>
+
+				<p>
+					Hello fellow shoppers! We're currently building our new fashion store. Add your
+					email below to stay up-to-date with announcements and our launch deals.
+				</p>
+
+				<form>
+					<input type="email" name="email" id="email" placeholder="Email Address" />
+					<button onclick="handleclick(event)">
+						<img
+							src="./images/icon-arrow.svg"
+							alt="Submit arrow button"
+							class="arrow"
+						/>
+					</button>
+					<img
+						src="/images/icon-error.svg"
+						alt="Error icon form"
+						class="error d-none"
+						id="error"
+					/>
+					<small class="d-none" id="small">Please provide a valid email</small>
+				</form>
+			</div>
+			<div class="right"></div>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
