@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-article-preview-component-I_ULZ6gEa)
--   Live Site URL: [Netlify Live Site](https://crimson-article-preview.netlify.app/)
+-   Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-base-apparel-dzDAi078i)
+-   Live Site URL: [Netlify Live Site](https://crimson-base-apparel.netlify.app/)
 
 ## My process
 
